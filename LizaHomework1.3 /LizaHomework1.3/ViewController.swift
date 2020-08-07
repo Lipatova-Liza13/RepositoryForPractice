@@ -60,6 +60,8 @@ final class ViewController: UIViewController {
             let avatar1 = UIImage(named: "Shoes")
             let avatar2 = UIImage(named: "Blouse")
             let avatar3 = UIImage(named: "Trousers")
+            let avatar4 = UIImage(named: "hat")
+
 
             guard let shop1 = Shop(avatar: avatar1, itemName: "Watermelon", price: "789") else {
                 fatalError("Unable to instantiate item1")
@@ -72,8 +74,12 @@ final class ViewController: UIViewController {
             guard let shop3 = Shop(avatar: avatar3, itemName: "Trousers", price: "40") else {
                 fatalError("Unable to instantiate item3")
             }
+            
+            guard let shop4 = Shop(avatar: avatar4, itemName: "hat", price: "56") else {
+                fatalError("Unable to instantiate item3")
+            }
 
-            shops += [shop1, shop2, shop3]
+            shops += [shop1, shop2, shop3,shop4]
         }
         
         @IBAction func unwindToShopList(sender: UIStoryboardSegue) {
