@@ -57,7 +57,7 @@ final class ViewController: UIViewController {
         
         private func loadSampleItems() {
             
-            let avatar1 = UIImage(named: "Watermelon")
+            let avatar1 = UIImage(named: "Shoes")
             let avatar2 = UIImage(named: "Blouse")
             let avatar3 = UIImage(named: "Trousers")
 
