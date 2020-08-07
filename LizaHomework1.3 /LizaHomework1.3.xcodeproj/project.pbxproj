@@ -18,6 +18,7 @@
 		8333600E24D6EA9A0017AC26 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333600D24D6EA9A0017AC26 /* ItemTableViewCell.swift */; };
 		8333601024D6F0E70017AC26 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8333600F24D6F0E70017AC26 /* ItemTableViewCell.xib */; };
 		8333601224D88BB30017AC26 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333601124D88BB30017AC26 /* NewItemViewController.swift */; };
+		8369998B24DD6B8D00263AA7 /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8369998A24DD6B8D00263AA7 /* RatingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		8333600D24D6EA9A0017AC26 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		8333600F24D6F0E70017AC26 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 		8333601124D88BB30017AC26 /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		8369998A24DD6B8D00263AA7 /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				83335FE724D6D9560017AC26 /* ViewController.swift */,
 				8333601124D88BB30017AC26 /* NewItemViewController.swift */,
+				8369998A24DD6B8D00263AA7 /* RatingController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				8333601224D88BB30017AC26 /* NewItemViewController.swift in Sources */,
 				8333600E24D6EA9A0017AC26 /* ItemTableViewCell.swift in Sources */,
 				83335FE624D6D9560017AC26 /* SceneDelegate.swift in Sources */,
+				8369998B24DD6B8D00263AA7 /* RatingController.swift in Sources */,
 				8333600B24D6DCDE0017AC26 /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
